@@ -12,9 +12,9 @@
 
 ### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 - Display Filter : ``` http.request.method == POST```
-Terlihat pada HTML Form URL Encoded: application/x-www-form-urlencoded bahwa
-Form item: "username" = "10pemuda"
-Form item: "password" = "guncangdunia"
+- Terlihat pada HTML Form URL Encoded: application/x-www-form-urlencoded bahwa
+- Form item: "username" = "10pemuda"
+- Form item: "password" = "guncangdunia"
 
 ### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 - Display Filter : ```http.authbasic```
