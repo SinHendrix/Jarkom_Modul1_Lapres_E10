@@ -61,12 +61,38 @@ Cari Password
 - Follow TCP Stream
 - Save data as RAW dengan format .pdf
 
+### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46"
+- Ctrl + F pada wireshark masukkan clue sebagai hex value
+- Follow TCP Stream
+- Save data as RAW dengan format .pdf
+
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+- Buka Wireshark
+- Pilih dokumen/jaringan yang ingin di filter
+- Type `tcp port 21`
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+- Buka Wireshark
+- Pilih dokumen/jaringan yang ingin di filter
+- Type `tcp src port 80`
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+- Buka Wireshark
+- Pilih dokumen/jaringan yang ingin di filter
+- Type `tcp dst port 443`
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+- Buka CMD
+- Type `ipconfig`
+- Dapet IP Address (Kasusku 192.168.100.6)
+- Buka Wireshark
+- Pilih jaringan yang ingin di filter
+- Type `src 192.168.100.6`
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+- Buka CMD
+- Type `PING monta.if.its.ac.id`
+- Dapet IP Address (103.94.190.11)
+- Buka Wireshark
+- Pilih jaringan yang ingin di filter
+- Type `dst 103.94.190.11`
